@@ -175,6 +175,7 @@
   justify-content: center;
   align-items: center;
   gap: 80px;
+  margin: 160px 64px;
 }
 .page_img {
   background: var(--white-1000, #fff);
