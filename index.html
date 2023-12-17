@@ -11,11 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <div class="background_img">
       <nav class="navbar">
-        <nav class="nav_header">
+        <nav class="nav_heder_icon">
           <img
             src="./svg_img/nav_svg.svg"
             alt=""
@@ -23,6 +24,11 @@
           />
           <a href="./index.html" class="SKYDRONE">SKYDRONE</a>
         </nav>
+        <img
+          src="./svg_img/navbar_media.svg"
+          alt="navbar icon"
+          class="navbar_media"
+        />
 
         <nav class="nav-item">
           <a href="#" class="nav-item_text">Clients</a>
@@ -132,17 +138,14 @@
     <div class="third_page">
       <div class="third_page_container">
         <div class="third_page_img_container">
-          <img
-            src="./svg_img/seccond_img.png"
-            alt=""
-            class="third_page_img"
-            style="height: 640px; width: 616px"
-          />
+          <img src="./svg_img/seccond_img.png" alt="" class="third_page_img" />
         </div>
         <div class="third_page_container_text">
           <p class="Modern_Technology">Modern Technology</p>
-          <p class="drone_text">More than just a drone</p>
-          <p class="drone_text">company</p>
+          <p class="drone_text">
+            More than just a drone <span class="company">Company</span>
+          </p>
+
           <div class="third_page_container_text_subscribtion">
             <div class="third_subscribtion">
               <img src="./svg_img/oneball.svg" alt="" />
@@ -236,12 +239,7 @@
           </div>
         </div>
         <div class="third_page_img_container">
-          <img
-            src="./svg_img/third.img.png"
-            alt=""
-            class="third_page_img"
-            style="height: 640px; width: 616px"
-          />
+          <img src="./svg_img/third.img.png" alt="" class="third_page_img" />
         </div>
       </div>
     </div>
@@ -273,7 +271,7 @@
             farming by using AI and drone technology.
           </p>
         </div>
-        <div>
+        <div class="app-download">
           <img src="./svg_img/App Store.svg" alt="" class="download_img" />
           <img src="./svg_img/play.svg" alt="" class="download_img" />
         </div>
@@ -317,6 +315,7 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          class="map"
         ></iframe>
       </div>
     </div>
@@ -354,7 +353,10 @@
           <p>Cookies Settings</p>
         </div>
         <div class="copyright">
-          <p>Copyright © 2022. SkyDrone by @apta.agency</p>
+          <p>
+            Copyright © 2022. SkyDrone by
+            <span class="copyright_text">@apta.agency</span>
+          </p>
         </div>
       </div>
     </footer>

@@ -10,18 +10,19 @@
   background-size: cover;
   height: 100vh;
   z-index: 1;
+  overflow: hidden;
+}
+.navbar_media {
+  display: none;
+}
+.nav_heder_icon {
+  z-index: 3;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 64px;
-}
-.nav_header {
-  z-index: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .SKYDRONE {
   color: var(--Gray-Scale-900, #393939);
@@ -59,7 +60,6 @@
   background: var(--Orange-orange-600, #c4730a);
   z-index: 3;
 }
-
 .contact_us {
   color: var(--white-1000, #fff);
   font-family: Raleway;
@@ -99,7 +99,6 @@
 }
 .box {
   position: relative;
-  height: 100vh;
   z-index: 3;
   background-color: #fff;
 }
@@ -119,7 +118,6 @@
   width: 1182.885px;
   height: 1182.885px;
 }
-
 .box_header {
   text-align: center;
   padding: 128px 0 48px 0;
@@ -152,7 +150,9 @@
   width: 184.612px;
   height: 184.612px;
 }
-
+.company_style {
+  display: inline;
+}
 .item {
   display: flex;
   justify-content: center;
@@ -283,6 +283,7 @@
   align-items: center;
   margin-bottom: 24px;
 }
+
 .fourth_background {
   background-image: url(./svg_img/fourth.img.png);
   background-position: center;
@@ -323,7 +324,6 @@
     --gradient-orange,
     linear-gradient(92deg, #d48c04 -11.76%, #b35911 103.23%)
   );
-
   padding: 64px;
 }
 .download_container {
@@ -411,6 +411,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .footer_text {
   display: flex;
   justify-content: space-between;
