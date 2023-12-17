@@ -170,9 +170,7 @@
   line-height: 140%;
   letter-spacing: -0.24px;
 }
-
-/* .page_container {
-  height: 100vh;
+.page_container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +181,7 @@
   display: flex;
   align-items: center;
   height: 640px;
-} */
+}
 .subscribtion_container {
   display: flex;
   justify-content: space-around;
